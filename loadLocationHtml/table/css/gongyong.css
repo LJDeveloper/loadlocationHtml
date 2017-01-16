@@ -1,0 +1,19 @@
+body{
+	background:#F5F5F5 !important; 
+	   font-family: "Helvetica Neue", "Microsoft YaHei",Helvetica, Arial, sans-serif;
+}
+.container{
+	/*max-width: 750px;*/
+	width: 100%;
+}
+.toubu{
+	min-width: 320px;
+	width: 100%;
+	background: #fff;
+	margin: 0 auto 0.5em;
+}
+a{	
+	outline: none !important;
+	
+}
+

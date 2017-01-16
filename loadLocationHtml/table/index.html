@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
+    <!--<link rel="stylesheet" type="text/css" href="css/silihui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gongyong.css"/>-->
+   <!-- <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>-->
+    <!--<script src="js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>-->
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+    <style type="text/css">
+    	body{
+	background:#F5F5F5 !important; 
+	   font-family: "Helvetica Neue", "Microsoft YaHei",Helvetica, Arial, sans-serif;
+}
+.container{
+	/*max-width: 750px;*/
+	width: 100%;
+}
+.toubu{
+	min-width: 320px;
+	width: 100%;
+	background: #fff;
+	margin: 0 auto 0.5em;
+}
+a{	
+	outline: none !important;
+	
+}
+.dingbu{
+	height:60px;
+	background: #FE1414;
+	line-height:60px;
+	color: #fff;
+	font-size:1.5em !important;
+	text-align:center;
+}
+.dingbu a{
+	color: #fff;
+}
+/*标题*/
+.biaot{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.biaot span{
+	font-size: 20px;	
+}
+.biaog{
+	margin-top: 0px;
+}
+/*服务项目*/
+.th_1>th:nth-of-type(1){
+	width: 80px;
+	height:50px;
+	text-align: center;
+}
+.th_1>th:nth-of-type(2){
+	width:60px;
+	text-align: center;
+}
+.th_1>th:nth-of-type(3){
+	width: 60px;
+	text-align: center;
+}
+.th_1>th:nth-of-type(4){
+	width:70px;
+	text-align: center;
+}
+.th_1>th:nth-of-type(5){
+	width:60px;
+	text-align: center;
+}
+/*基础服务*/
+.th_2{
+	text-align: center;
+}
+.th_2>td:nth-of-type(1){
+	width:30px;
+	height: 40px;
+	text-align: center;
+}
+.th_2>td:nth-of-type(2){
+	width:80px;
+	height: 40px;
+}
+.th_2>td:nth-of-type(3){
+	width:40px;
+}
+.th_2>td:nth-of-type(4){
+	width:40px;
+}
+.th_2>td:nth-of-type(5){
+	width:40px;
+}
+/*合作机会*/
+.td_1{
+	text-align: center;
+}
+.td_1>td:nth-of-type(1){
+	width:30px;
+	height: 40px;
+}
+/*推广服务*/
+.td_2{
+	text-align: center;
+}
+.td_2>td:nth-of-type(1){
+	width:30px;
+}
+
+.td_2>td:nth-of-type(2){
+	width:30px;
+	height: 40px;
+}
+/*首页推荐栏目 */
+.td_3{
+	text-align: center;
+}
+.td_3>td:nth-of-type(1){
+	width:30px;
+	height: 40px;
+}
+/*商城栏目排名*/
+.td_4{
+	text-align: center;
+}
+.td_4>td:nth-of-type(1){
+	width:30px;
+	height: 40px;
+}
+/*新闻资讯栏目*/
+.td_5{
+	text-align: center;
+}
+.td_5>td:nth-of-type(1){
+	width:30px;
+	height: 40px;
+}
+/*首页广告位*/
+.td_6{
+	text-align: center;
+}
+.td_6>td:nth-of-type(1){
+	width:40px;
+	height: 40px;
+}
+/*基础服务*/
+.td_7{
+	text-align: center;
+}
+.td_7>td:nth-of-type(2){
+	width:40px;
+	height: 40px;
+}
+/*基础服务*/
+.td_8{
+	text-align: center;
+}
+.td_8>td:nth-of-type(1){
+	width:40px;
+	height: 40px;
+}
+/*按钮*/
+.n>button{
+	width: 60px;
+	height: 30px;
+	background: #FE1414;
+	color: #FFFFFF;
+	border-radius:8px;
+	margin-left: 10px;
+	margin-top: 10px;
+	position: relative;
+	left:90px;
+	outline: none;
+}
+.lo_1>span{
+	color:red;
+}
+.lo_1>p{
+	margin-top:1px;
+	font-size: 12px;
+}
+.lo_1>p>span{
+	color:red;
+	position: relative;
+	left: 15px;
+}
+.pull-left>img{
+	width:35px;
+	height:35px;
+	position: relative;
+	left: -125px;
+	top:8px
+}
+    </style>
+</head>
+<body>
+	<div class="toubu">
+			<div class="dingbu">
+				<div class="zou">
+					<a class="pull-left" href=""><img src="iconfont-fanhui.png"/></a>
+						<span style="margin-left: -50px;">会员制度</span>
+				</div>
+			</div>			
+		</div>
+		<!--表格-->
+		<div class="biaot container">			
+				<span>店铺会员服务项目</span>
+			</div>
+		</div>
+		<div class="biaog container">
+			<table border="1" cellspacing="0" cellpadding="2" style="background-color: #FFFFFF;">
+				<tr class="th_1">
+					<th colspan="2">服务项目</th>
+					<th>体验</th>
+					<th>铜牌会员</th>
+					<th>银牌会员</th>
+					<th>金牌会员</th>
+				</tr>
+		        <tr class="th_2">  
+	            	<td rowspan="2">服务基础</td>  
+		            <td>二级域名</td>  
+		            <td>无</td>
+		            <td>有</td>  
+		            <td>有</td>  
+		            <td>有</td>  
+		        </tr>
+		        <tr class="td_1">  
+		            <td>合作机会</td>  
+		            <td>
+		            	5人
+		            	<p>半年体验</p>
+		            </td>
+		            <td>
+		            	30人
+		            <p>3年体验</p>
+		            </td>  
+		            <td>
+		            	60人
+		            	<p>5年体验</p>
+		            </td>  
+		            <td>不限</td>  
+		        </tr>
+		        <tr class="td_2">  
+	            	<td rowspan="5">推广服务</td>  
+		            <td>首页展示</td>  
+		            <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>  
+		        </tr>
+		        <tr class="td_3">  
+		            <td>省级站首页展示</td>  
+		            <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>  
+		        </tr>
+		        <tr class="td_4">  
+		            <td>商场首页展示</td>  
+		            <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>  
+		        </tr>
+		        <tr class="td_5">  
+		            <td>首页展示</td>  
+		            <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>   
+		        </tr>
+		        <tr class="td_6">  
+		            <td>二级页面展示</td>  
+		           <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>  
+		        </tr>
+		        <tr class="td_7">  
+	            	<td rowspan="2">服务基础</td>  
+		            <td>参与拍卖</td>  
+		            <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>   
+		        </tr>  
+		        <tr class="td_8">  
+		            <td>活动参与优先权</td>  
+		            <td>有</td>
+		            <td>15天</td>  
+		            <td>30天</td>  
+		            <td>60天</td>  
+		        </tr>
+			</table>
+		</div>
+		<div class="container">
+			<div class="n">
+				<button>体验</button>
+				<button>开通</button>
+				<button>开通</button>
+				<button>开通</button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="lo">
+				<h4>更多服务即将陆续上线，欢迎体验</h4>
+			</div>
+			<div class="lo_1">				
+					<span>注：</span>
+					<p><span>①</span>&nbsp;&nbsp;&nbsp;&nbsp;合作机会是指店铺和艺术家达成签约的合作、代售作品的合作机会，拓展店铺的商品种类，掌握更多的艺术家资源</p>
+					<p><span>②</span>&nbsp;&nbsp;&nbsp;&nbsp;合作机会是指店铺和艺术家达成签约的合作</p>
+					<p><span>③</span>&nbsp;&nbsp;&nbsp;&nbsp;合作机会是指店铺和艺术家达成签约的合作、代售作品的合作机会，拓展店铺的商品种类，掌握更多的艺术家资源</p>
+				
+			</div>
+		</div>
+		
+</body>
+</html>
